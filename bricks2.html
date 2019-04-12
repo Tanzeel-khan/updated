@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>stix & bricks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+
+</head>
+<body>
+        <div class="main">
+                <nav>
+                <ul class="left">
+                  <li style="float:left"><a  href="#">STIX & BRICKS</a></li>
+                </ul>
+                  <ul class="right">
+                    <li><a href="a">UPLOAD[ + ]</a></li>
+                    <li><a href="a">CSV TEMPLATE</a></li>
+                  </ul>
+                </nav>
+                </div>
+                <div class="box">
+                <table id="customers"  >
+                    <tr>
+                      <th>ADDRESS</th>
+                      <th>CITY</th> 
+                      <th>ZIP</th>
+                      <th>STATE</th>
+                      <th>PRICE</th>
+                      <th>DESCRIPTION</th>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td >This home is...</td>
+                      <td><button  onclick="document.getElementById('my-modal')" id="mybtn" class="up"><img src="cam.png" class="pic">
+                      </button><button  id="mybutn" class="up1" ><img src="del.png" class="pic"></button></td>
+                      
+                      
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button  id="mybtn1"class="up2" ><img src="cam.png" class="pic"></button><button id="mybtn2" class="up3" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn3" class="up4" ><img src="cam.png" class="pic"></button><button id="mybtn4" class="up5" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn5" class="up6" ><img src="cam.png" class="pic"></button><button id="mybtn6" class="up7" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn7" class="up8" ><img src="cam.png" class="pic"></button><button id="mybtn8" class="up9" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn9" class="up0" ><img src="cam.png" class="pic"></button><button id="mybtn0" class="p1" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn11" class="p2" ><img src="cam.png" class="pic"></button><button id="mybtn12" class="p3" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn13" class="p4" ><img src="cam.png" class="pic"></button><button id="mybtn14" class="p5" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+                    <tr>
+                      <td>18950 Lina Street</td>
+                      <td>DALLAS</td> 
+                      <td>75010</td>
+                      <td>TX</td>
+                      <td>$249,000</td>
+                      <td>This home is...</td>
+                      <td><button id="mybtn15" class="p6" ><img src="cam.png" class="pic"></button><button id="mybtn16" class="p7" ><img src="del.png" class="pic"></button></td>
+                    </tr>
+
+                  </table>
+                </div>
+                <div id="my-modal" class="modal">
+                   <form class="modal-content"  >
+                  <img src="del.png" class="pop">
+                  
+                  <h3 >ARE YOU SURE YOU WANT TO DELETE THIS LISTING?</h3>
+                  <P>This will permanently remove this listing from the Stix & Bricks website.</P>
+                  <button  class="bpop">CANCEL</button>
+                  <button  class="bp">YES</button>
+               
+                </form>
+              </div>
+              <div id="mypop" class="popup">
+                <form class="content">
+               
+               <button  class="pop"><img src="select.png" class="pics"></button>
+               <h4>SELECT AN IMAGE</h4>
+               <button  class="p">UPLOAD</button>
+            
+             </form>
+           </div>
+              <script>
+                // If user clicks anywhere outside of the modal, Modal will close 
+                var modal = document.getElementById('my-modal');
+                var modal1 = document.getElementById('mypop');
+                var btn = document.getElementById("mybtn");
+   btn.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn1= document.getElementById('mybutn');
+btn1.onclick = function() {
+  modal.style.display = "block";
+}
+var btn2= document.getElementById('mybtn1');
+btn2.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn3= document.getElementById('mybtn2');
+btn3.onclick = function() {
+  modal.style.display = "block";
+}
+var btn4= document.getElementById('mybtn3');
+btn4.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn5= document.getElementById('mybtn4');
+btn5.onclick = function() {
+  modal.style.display = "block";
+}
+var btn6= document.getElementById('mybtn5');
+btn6.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn7= document.getElementById('mybtn6');
+btn7.onclick = function() {
+  modal.style.display = "block";
+}
+var btn8= document.getElementById('mybtn7');
+btn8.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn9= document.getElementById('mybtn8');
+btn9.onclick = function() {
+  modal.style.display = "block";
+}
+var btn10= document.getElementById('mybtn9');
+btn10.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn11= document.getElementById('mybtn0');
+btn11.onclick = function() {
+  modal.style.display = "block";
+}
+var btn12= document.getElementById('mybtn11');
+btn12.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn13= document.getElementById('mybtn12');
+btn13.onclick = function() {
+  modal.style.display = "block";
+}
+var btn14= document.getElementById('mybtn13');
+btn14.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn15= document.getElementById('mybtn14');
+btn15.onclick = function() {
+  modal.style.display = "block";
+}
+var btn16= document.getElementById('mybtn15');
+btn16.onclick = function() {
+  modal1.style.display = "block";
+}
+var btn17= document.getElementById('mybtn16');
+btn17.onclick = function() {
+  modal.style.display = "block";
+}
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>   
+              
+            </body>
+            </html>
